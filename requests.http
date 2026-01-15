@@ -1,0 +1,16 @@
+### GET request to example server
+GET http://localhost:8080
+
+###
+GET http://localhost:8080/api/application-tracker
+
+###
+
+POST http://localhost:8080/api/application-tracker
+Content-Type: application/json
+
+{
+"companyName": "Amazon",
+  "positon": "Software Engineer",
+  "date": "2026-01-06"
+}

@@ -1,0 +1,25 @@
+# ===== OS / IDE =====
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# ===== Java / Maven =====
+target/
+*.class
+*.log
+
+# ===== Environment / Secrets =====
+.env
+.env.*
+application-prod.properties
+application-local.properties
+
+# ===== Node (if frontend exists later) =====
+node_modules/
+
+# ===== Misc =====
+*.pem
+*.key
+
+
